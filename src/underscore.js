@@ -20,12 +20,12 @@ var myFunctions = {
   // Takes an array of objects and returns and array of the values of
   // a certain property in it. E.g. take an array of people objects
   // (which have a name and an age) and return an array of just their ages
-  pluck: function(collection, key) {
+  pluck: function(array, key) {
 
   },
 
- // Determine if the array or object contains a given value (using `===`).
-  contains: function(collection, target) {
+ // Determine if the array contains a given value (using `===`).
+  contains: function(array, target) {
 
   },
 
@@ -34,7 +34,7 @@ var myFunctions = {
   // Hint: Use Array.isArray to check if something is an array
   // Also, you will need to use recursion
   // when you find an array inside of an array
-  flatten: function(nestedArray, result) {
+  flatten: function(array, result) {
 
   }
 };
