@@ -12,7 +12,7 @@ For the second part of your long weekend lab, we'd like you to rewrite some unde
 ### How to tackle this assignment
 
 1. First, start with some research, make sure you know exactly what these six functions do before you try to implement it on your own.
-2. The describe and it blocks have been written for you, so start by writing the appropriate tests that match what is inside the "it" block.
+2. The "describe" and "it" blocks have been written for you, so start by writing the appropriate tests that match what is inside the "it" block.
 3. Once your tests are written, try to write a function that makes the test pass.
 
 ### Final note
