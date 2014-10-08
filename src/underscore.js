@@ -31,7 +31,9 @@ var myFunctions = {
 
   // Turns a multidimensional array into a single array
   // flatten([1,2,[3,4,[5,6]]]) returns [1,2,3,4,5,6]
-  //Hint: Use Array.isArray to check if something is an array
+  // Hint: Use Array.isArray to check if something is an array
+  // Also, you will need to use recursion
+  // when you find an array inside of an array
   flatten: function(nestedArray, result) {
 
   }
