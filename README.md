@@ -17,4 +17,4 @@ For the second part of your long weekend lab, we'd like you to rewrite some unde
 
 ### Final note
 
-Not only is reimplementing JavaScript functions a fantastic way to improve your testing - it's also a super super common interview question ("reimplement ____"), so the more you can practice earlier the better. This is going to be challenging, but if you get stuck, move to the next function or use each other and Stack Overflow to help!
+Not only is reimplementing JavaScript functions a fantastic way to improve your JS and TDD skills - it's also a super super common interview question, so the more you can practice earlier the better. This is going to be challenging, but if you get stuck, move to the next function or use each other and Stack Overflow to help. We will review everything after the long weekend, so if you are struggling, don't get discouraged!
