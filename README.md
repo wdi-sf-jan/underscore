@@ -7,13 +7,16 @@ For the second part of your long weekend lab, we'd like you to rewrite some unde
 3. Uniq - [http://underscorejs.org/#uniq](http://underscorejs.org/#uniq)
 4. Pluck - [http://underscorejs.org/#pluck](http://underscorejs.org/#pluck)
 4. Contains - [http://underscorejs.org/#contains](http://underscorejs.org/#contains)
-5. Flatten  - [http://underscorejs.org/#flatten](http://underscorejs.org/#flatten)
 
 ### How to tackle this assignment
 
 1. First, start with some research, make sure you know exactly what these six functions do before you try to implement it on your own.
 2. The "describe" and "it" blocks have been written for you, so start by writing the appropriate tests that match what is inside the "it" block.
 3. Once your tests are written, try to write a function that makes the test pass.
+
+### Super bonus
+
+5. Flatten  - [http://underscorejs.org/#flatten](http://underscorejs.org/#flatten) - you will need to use recursion to solve this.
 
 ### Final note
 
