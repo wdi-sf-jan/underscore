@@ -2,12 +2,12 @@
 
 For the second part of your long weekend lab, we'd like you to rewrite some underscore.js methods and tests that make them pass. The functions you will be implementing are:
 
-1. First [http://underscorejs.org/#first](http://underscorejs.org/#first)
-2. Last [http://underscorejs.org/#last](http://underscorejs.org/#last)
-3. Uniq [http://underscorejs.org/#uniq](http://underscorejs.org/#uniq)
-4. Pluck [http://underscorejs.org/#pluck](http://underscorejs.org/#pluck)
-4. Contains [http://underscorejs.org/#contains](http://underscorejs.org/#contains)
-5. Flatten  [http://underscorejs.org/#flatten](http://underscorejs.org/#flatten)
+1. First -  [http://underscorejs.org/#first](http://underscorejs.org/#first)
+2. Last - [http://underscorejs.org/#last](http://underscorejs.org/#last)
+3. Uniq - [http://underscorejs.org/#uniq](http://underscorejs.org/#uniq)
+4. Pluck - [http://underscorejs.org/#pluck](http://underscorejs.org/#pluck)
+4. Contains - [http://underscorejs.org/#contains](http://underscorejs.org/#contains)
+5. Flatten  - [http://underscorejs.org/#flatten](http://underscorejs.org/#flatten)
 
 ### How to tackle this assignment
 
