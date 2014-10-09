@@ -25,7 +25,7 @@ var myFunctions = {
   },
 
  // Determine if the array contains a given value (using `===`).
- // TIP: Many iteration problems can be most easily expressed in terms of reduce()
+ // TIP: There are multiple solutions to this problem, ranging from one line to using reduce();
   contains: function(array, target) {
 
   },
