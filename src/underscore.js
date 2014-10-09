@@ -35,7 +35,7 @@ var myFunctions = {
   // Hint: Use Array.isArray to check if something is an array
   // Also, you will need to use recursion
   // when you find an array inside of an array
-  flatten: function(array, result) {
+  flatten: function(array) {
 
   }
 };
