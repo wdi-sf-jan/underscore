@@ -16,7 +16,3 @@ Implement these Underscore.js Methods
 ### Bonus
 
 Implement the function flatten  - [http://underscorejs.org/#flatten](http://underscorejs.org/#flatten) - you will need to use recursion to solve this.
-
-### Final note
-
-Not only is reimplementing JavaScript functions a fantastic way to improve your JS and TDD skills - it's also a super super common interview question, so the more you can practice earlier the better. This is going to be challenging, but if you get stuck, move to the next function or use each other and Stack Overflow to help. We will review everything after the long weekend, so if you are struggling, don't get discouraged!
