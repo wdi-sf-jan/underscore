@@ -1,6 +1,4 @@
-## Weekend Lab Part 2 - Implement Underscore.js Methods
-
-For the second part of your long weekend lab, we'd like you to rewrite some underscore.js methods and tests that make them pass. The functions you will be implementing are:
+Implement these Underscore.js Methods
 
 1. First -  [http://underscorejs.org/#first](http://underscorejs.org/#first)
 2. Last - [http://underscorejs.org/#last](http://underscorejs.org/#last)
