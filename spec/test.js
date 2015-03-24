@@ -68,14 +68,11 @@ describe('contains', function() {
     expect(myFunctions.contains([  4,   5,   6], 5)).to.equal(true);
   });
 
-  it('can operate on objects', function(){
-    expect(myFunctions.contains({a:4, b:5, c:6}, 5)).to.equal(true);
-  });
 });
 
 describe('flatten', function() {
   it('can flatten nested arrays', function() {
-    var nestedArray = [1, [2], [3, [[[4]]]]];
+    var nestedArray = [[[[[[[[[[[[[[[[[[[[[[[[[[[[1, [2], [[[[3]]], [[[4]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]];
 
     expect(myFunctions.flatten(nestedArray)).to.eql([1,2,3,4]);
   });

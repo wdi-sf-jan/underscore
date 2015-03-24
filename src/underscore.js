@@ -1,5 +1,3 @@
-/*jshint eqnull:true, expr:true*/
-_ = require("underscore");
 
 var myFunctions = {
 
@@ -12,23 +10,22 @@ var myFunctions = {
   // Like first, but for the last elements. If n is undefined, return just the
   // last element.
   last :function(array, n) {
-    if (n === undefined) {
-    return array[array.length-1];
-    }
-    else if (n > array.length) {
-    return array;
-    }
-    else {
-    return array.splice(1, n);
-    }
-
+    // if (n === undefined) {
+     // return array[array.length-1];
+    // }
+    // else if (n > array.length) {
+      // return array;
+    // }
+    // else {
+      // return array.splice(array.length-n, n);
+    // }
+    return n === undefined ? array[array.length-1] : n > array.length ? array : array.splice(array.length-n, n);
  },
 
   // Produce a duplicate-free version of the array.
   uniq :function(array) {
     var dupFreeArray = [];
-
-    _.each(array, function(item){
+    array.forEach(function(item){
       if (dupFreeArray.indexOf(item) === -1) {
         dupFreeArray.push(item);
       }
@@ -40,16 +37,15 @@ var myFunctions = {
   // a certain property in it. E.g. take an array of people and return
   // an array of just their ages
   pluck :function(collection, key) {
-    return _.map(collection, function(item){
+    return collection.map(function(item){
       return item[key];
     });
   },
 
- // Determine if the array or object contains a given value (using `===`).
   contains :function(collection, target) {
     // TIP: Many iteration problems can be most easily expressed in
-    // terms of reduce(). Here's a freebie to demonstrate!
-    return _.reduce(collection, function(wasFound, item) {
+    // terms of reduce()
+    return collection.reduce(function(wasFound, item) {
       if(wasFound) {
         return true;
       }
@@ -60,17 +56,12 @@ var myFunctions = {
   // Hint: Use Array.isArray to check if something is an array
   flatten :function(nestedArray, result) {
     var flatArray = [];
-    var enterItems = function(arr) {
-      _.each(arr, function(item) {
-        if (Array.isArray(item)) {
-          enterItems(item);
-        }
-        else {
-          flatArray.push(item);
-        }
+    function addItems(arr) {
+      arr.forEach(function(item) {
+        return Array.isArray(item) ? addItems(item) : flatArray.push(item);
       });
-    };
-    enterItems(nestedArray);
+    }
+    addItems(nestedArray);
     return flatArray;
   }
 };
