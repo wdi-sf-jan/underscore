@@ -54,7 +54,7 @@ var myFunctions = {
   },
 
   // Hint: Use Array.isArray to check if something is an array
-  flatten :function(nestedArray, result) {
+  flatten :function(nestedArray) {
     var flatArray = [];
     function addItems(arr) {
       arr.forEach(function(item) {
